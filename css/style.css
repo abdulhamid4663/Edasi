@@ -1,0 +1,173 @@
+nav img {
+	width: 90px;
+}
+p {
+	font-size: 18px;
+	font-weight: 600;
+}
+.banner-section {
+	background-image: url(../images/1bn.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 94vh;
+}
+.banner-section .container {
+    padding: 210px 0;
+}
+.banner-content {
+	padding: 50px;
+	background: rgb(255 255 255 / 53%);
+}
+.banner-content h1 {
+	font-size: 32px;
+    font-weight: 700;
+}
+.banner-content p {}
+.banner-content span {
+    text-decoration: line-through;
+}
+.banner-content h2 {
+	font-size: 40px;
+}
+.banner-content button {}
+
+
+.middle-paragraph-section {}
+.middle-paragraph-section hr {
+	opacity: 1;
+}
+.middle-paragraph-section p {
+    font-weight: 400;
+}
+
+.first-photo-section {}
+.first-photo-section .container {
+	padding: 0px 180px;
+}
+.first-photo-section .box {}
+.box img {}
+.box h3 {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 17px 0 5px;
+    color: #000000c2;
+}
+.box hr {
+	margin: auto;
+	color: red;
+	opacity: 1.0;
+}
+.box p {
+    font-weight: 400;
+    padding: 14px 10px 0;
+}
+
+.second-banner {
+	background-image: url(../images/Untitled-6.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.features {
+	padding: 13px 0 40px 7px;
+}
+.features h1 {
+    font-size: 50px;
+    padding: 0px 20px 20px;
+}
+.features h5 {
+    padding: 5px 30px;
+}
+
+.image-6 img {
+	max-width: 100%;
+}
+
+
+.last-paragraph-section {}
+.last-paragraph-section hr {
+	opacity: 1;
+}
+.last-paragraph-section p {
+	font-weight: 400;
+    padding: 10px 0 0px;
+}
+
+
+.last-photo-section {}
+.last-photo-section .container {
+	padding: 0px 180px;
+}
+
+
+.footer {}
+.footer hr {
+	opacity: 1;
+}
+.footer h2 {}
+.footer p {
+	font-weight: 400;
+}
+.footer button {}
+.footer span {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 0 15px;
+}
+
+
+
+
+@media screen and (max-width: 1399px) {
+	.first-photo-section .container {
+	    padding: 0px 160px;
+	}
+	.last-photo-section .container {
+	    padding: 0px 160px;
+	}
+
+}
+@media screen and (max-width: 991px) {
+	.first-photo-section .container {
+	    padding: 0px 130px;
+	}
+	.last-photo-section .container {
+	    padding: 0px 130px;
+	}
+	.feature-section {
+		background-image: url(../images/Untitled-6.webp);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		background-blend-mode: overlay;
+		background-color: #ffffff7a;
+	}
+	.second-banner {
+		display:none;
+	}
+
+
+}
+@media screen and (max-width: 767px) {
+	.first-photo-section .container {
+	    padding: 0;
+	}
+	.last-photo-section .container {
+	    padding: 0;
+	}	
+}
+@media screen and (max-width: 575px) {
+	.first-photo-section .container {
+	    padding: 0 15px;
+	}
+	.last-photo-section .container {
+	    padding: 0 15px;
+	}
+	.box p {
+	    font-weight: 400;
+	    padding: 15px 23px 0;
+	}
+}
