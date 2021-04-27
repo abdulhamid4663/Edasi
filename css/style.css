@@ -5,12 +5,20 @@ p {
 	font-size: 18px;
 	font-weight: 600;
 }
+body {
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.row {
+	margin:0;
+}
 .banner-section {
 	background-image: url(../images/1bn.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 94vh;
+	min-height: 95vh;
 }
 .banner-section .container {
     padding: 210px 0;
